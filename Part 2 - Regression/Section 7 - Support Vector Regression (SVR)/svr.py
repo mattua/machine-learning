@@ -33,7 +33,7 @@ y_pred = sc_y.inverse_transform(y_pred)
 # Visualising the SVR results
 plt.scatter(X, y, color = 'red')
 plt.plot(X, regressor.predict(X), color = 'blue')
-plt.title('Truth or Bluff (SVR)')
+plt.title('Truth or Bluffs (SVR)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
